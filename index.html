@@ -8,12 +8,13 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Blur Landing site</title>
   </head>
   <body>
     <header class="header">
-      <div class="header-container">
+      <div>
         <img class="logo" src="./assets/image/logo.png" alt="Traversy Media" />
         <h1 class="header-title">Welcome To <br />Traversy Media</h1>
         <p class="p-text line">
@@ -25,34 +26,36 @@
 
     <main>
       <div class="services">
-        <article>
-          <i class="fab fa-youtube fa-3x"></i>
-          <h2 class="h2-title">YouTube</h2>
-          <p class="p-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-            reiciendis!
-          </p>
-        </article>
-        <article>
-          <i class="fas fa-chalkboard-teacher fa-3x"></i>
-          <h2 class="h2-title">Courses</h2>
-          <p class="p-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-            reiciendis!
-          </p>
-        </article>
-        <article>
-          <i class="fas fa-briefcase fa-3x"></i>
-          <h2 class="h2-title">Freelancing Projects</h2>
-          <p class="p-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-            reiciendis!
-          </p>
-        </article>
+        <div class="services-container container">
+          <article>
+            <i class="fab fa-youtube fa-3x"></i>
+            <h2 class="h2-title">YouTube</h2>
+            <p class="p-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              reiciendis!
+            </p>
+          </article>
+          <article>
+            <i class="fas fa-chalkboard-teacher fa-3x"></i>
+            <h2 class="h2-title">Courses</h2>
+            <p class="p-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              reiciendis!
+            </p>
+          </article>
+          <article>
+            <i class="fas fa-briefcase fa-3x"></i>
+            <h2 class="h2-title">Freelancing Projects</h2>
+            <p class="p-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              reiciendis!
+            </p>
+          </article>
+        </div>
       </div>
 
       <div class="about">
-        <article class="about-article">
+        <article class="about-container container">
           <div class="about-img-wrapper">
             <i class="laptop fas fa-laptop-code fa-10x"></i>
           </div>
@@ -71,7 +74,7 @@
     </main>
 
     <footer class="footer">
-      <p class="p-text">Traversy Media © 2019</p>
+      <p>Traversy Media © 2019</p>
     </footer>
   </body>
 </html>
